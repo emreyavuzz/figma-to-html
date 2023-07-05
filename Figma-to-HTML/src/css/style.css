@@ -1,0 +1,68 @@
+:root{
+    --primary :#009BD9;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+header{
+    height: 72px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #333 !important;
+}
+body hr{
+    border-top: 0.4px solid #99999999
+}
+.card .card-body .card-title{
+    color:#333;
+}
+.site-footer
+{
+  background-color:#009BD9;
+  padding-top: 44px;
+  color:#ffffff;
+}
+.site-footer hr
+{
+  border-top-color:#ffffff;
+  opacity:0.5
+}
+
+.site-footer h5
+{ padding-bottom: 8px;
+  color:#fff;
+  font-size:20px;
+  text-transform:uppercase;
+  margin-top:4px;
+  font-family: 'Inter', sans-serif;
+ 
+}
+.site-footer p
+{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer-links
+{
+text-align: center;
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.copyright-text
+{
+  padding-bottom: 7px;
+}
+
